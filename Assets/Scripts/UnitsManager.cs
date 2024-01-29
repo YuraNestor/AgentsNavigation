@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 public class UnitsManager : IUnitsManager
-{
-    private Dictionary<int, int> aliveUnits = new Dictionary<int, int>();
-    private Dictionary<int, int> units = new Dictionary<int, int>();    
+{    
     private List<Player> playerList = new List<Player>();
 
     public void AddUnitWithOwnerId(int ownerId)
