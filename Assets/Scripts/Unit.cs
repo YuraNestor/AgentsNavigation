@@ -40,8 +40,10 @@ public class Unit : MonoBehaviour
         { 
             if (target)
             {
-                if(ignorePreTarget)
+                if (ignorePreTarget)
+                {
                     FieldOfViewCheck();
+                }                    
                 agent.SetDestination(target.position);
                 TryKillEnemy(target);
             }
