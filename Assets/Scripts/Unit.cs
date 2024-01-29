@@ -7,7 +7,7 @@ using UnityEngine;
 using Zenject;
 
 public class Unit : MonoBehaviour
-{
+{    
     public int ownerId;
     public float viewRadius;
     public float AttacRange;
@@ -16,8 +16,7 @@ public class Unit : MonoBehaviour
     public bool killAndDie=true;
     public bool ignorePreTarget = true;
     public GameObject effect;
-    public Transform target;
-
+    public Transform target;    
     protected AgentAuthoring agent;    
     private IUnitsManager unitsManager;
 

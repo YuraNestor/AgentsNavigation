@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 using Zenject;
 
-public class GameStats : MonoBehaviour
+public class UGameStats : MonoBehaviour
 {
     [SerializeField]
     private Text textStats;
@@ -15,17 +16,17 @@ public class GameStats : MonoBehaviour
     {
         this.unitsManager = unitsManager;
     }
-    
+
     // Update is called once per frame
     void Update()
     {
         textStats.text = string.Empty;
-        var ids = unitsManager.GetAllOwnerIds();
-        foreach (var id in ids)
+        var unitPlayers = unitsManager.GetAllUnitPlayers();
+        foreach (var unitPlayer in unitPlayers)
         {
-            textStats.text += "Id " + id + "\n";
-            textStats.text += "Alive-" + unitsManager.GetCountAliveUnitsWithOwnerId(id) + "\n";
-            textStats.text += "Dead-" + unitsManager.GetCountDeadUnitsWithOwnerId(id) + "\n";
+            textStats.text += unitPlayer.name + "\n";
+            textStats.text += "Alive-" + unitPlayer.aliveUnits + "\n";
+            textStats.text += "Dead-" + (unitPlayer.totallUnits - unitPlayer.aliveUnits) + "\n";
         }
     }
 }

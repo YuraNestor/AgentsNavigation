@@ -7,4 +7,5 @@ public interface IUnitsManager
     public int GetCountUnitsWithOwnerId(int ownerId);
     public int[] GetAllOwnerIds();
     public int GetCountDeadUnitsWithOwnerId(int ownerId);
+    public Player[] GetAllUnitPlayers();
 }

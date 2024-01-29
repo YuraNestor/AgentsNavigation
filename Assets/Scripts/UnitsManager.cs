@@ -5,7 +5,8 @@ using System.Linq;
 public class UnitsManager : IUnitsManager
 {    
     private List<Player> playerList = new List<Player>();
-
+    private string[] playerNames = { "Blue", "Red" };
+    
     public void AddUnitWithOwnerId(int ownerId)
     {
         var player = playerList.Where(x => x.Id == ownerId).FirstOrDefault<Player>();
@@ -15,6 +16,14 @@ public class UnitsManager : IUnitsManager
             player.Id = ownerId;
             player.aliveUnits = 1;
             player.totallUnits = 1;
+            if(ownerId>=playerNames.Length)
+            {
+                player.name = "No Name";
+            }
+            else
+            {
+                player.name = playerNames[ownerId];
+            }
             playerList.Add(player);            
         }
         else
@@ -75,5 +84,10 @@ public class UnitsManager : IUnitsManager
     public int[] GetAllOwnerIds()
     {
         return playerList.Select(player => player.Id).ToArray();
+    }
+
+    public Player[] GetAllUnitPlayers()
+    {
+        return playerList.ToArray();
     }
 }

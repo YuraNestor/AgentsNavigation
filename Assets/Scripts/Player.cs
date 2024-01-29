@@ -9,4 +9,5 @@ public class Player
     public int Id;
     public int aliveUnits;
     public int totallUnits;
+    public string name;
 }
