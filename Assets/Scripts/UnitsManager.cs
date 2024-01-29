@@ -1,64 +1,37 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using UnityEngine;
 
 public class UnitsManager : IUnitsManager
-{    
-    private Dictionary<int,int> aliveUnits=new Dictionary<int, int>();
+{
+    private Dictionary<int, int> aliveUnits = new Dictionary<int, int>();
     private Dictionary<int, int> units = new Dictionary<int, int>();    
+    private List<Player> playerList = new List<Player>();
 
-    public void AddUnitWithLayer(int layer)
+    public void AddUnitWithOwnerId(int ownerId)
     {
-        if (aliveUnits.ContainsKey(layer))
+        var player = playerList.Where(x => x.Id == ownerId).FirstOrDefault<Player>();
+        if (player == null)
         {
-            aliveUnits[layer]++;
-            units[layer]++;
+            player = new Player();
+            player.Id = ownerId;
+            player.aliveUnits = 1;
+            player.totallUnits = 1;
+            playerList.Add(player);            
         }
         else
         {
-            aliveUnits.Add(layer, 1);
-            units.Add(layer, 1);
+            player.aliveUnits++;
+            player.totallUnits++;
         }        
     }
 
-    public int GetCountAliveUnitsWithLayer(int layer)
-    {        
-        if (aliveUnits.ContainsKey(layer))
-        {
-            return aliveUnits[layer];            
-        }
-        else
-        {
-            return 0;
-        }        
-    }
-
-    public void RemoveUnitWithLayer(int layer)
+    public int GetCountAliveUnitsWithOwnerId(int ownerId)
     {
-        if (aliveUnits.ContainsKey(layer))
+        var player = playerList.Where(x => x.Id == ownerId).FirstOrDefault<Player>();
+        if (player!=null)
         {
-            aliveUnits[layer]--;
-        }        
-    }
-
-    public int GetCountUnitsWithLayer(int layer)
-    {
-        if (units.ContainsKey(layer))
-        {
-            return units[layer];
-        }
-        else
-        {
-            return 0;            
-        }
-    }
-
-    public int GetCountDeadUnitsWithLayer(int layer)
-    {
-        if (units.ContainsKey(layer))
-        {
-            return units[layer] - aliveUnits[layer];
+            return player.aliveUnits;
         }
         else
         {
@@ -66,8 +39,43 @@ public class UnitsManager : IUnitsManager
         }
     }
 
-    public int[] GetAllLayers()
+    public void RemoveUnitWithOwnerId(int ownerId)
     {
-        return units.Keys.ToArray<int>();
+        var player = playerList.Where(x => x.Id == ownerId).FirstOrDefault<Player>();
+        if (player != null)
+        {
+            player.aliveUnits--;
+        }
+    }
+
+    public int GetCountUnitsWithOwnerId(int ownerId)
+    {
+        var player = playerList.Where(x => x.Id == ownerId).FirstOrDefault<Player>();
+        if (player != null)
+        {
+            return player.totallUnits;
+        }
+        else
+        {
+            return 0;
+        }
+    }
+
+    public int GetCountDeadUnitsWithOwnerId(int ownerId)
+    {
+        var player = playerList.Where(x => x.Id == ownerId).FirstOrDefault<Player>();
+        if (player != null)
+        {
+            return player.totallUnits-player.aliveUnits;
+        }
+        else
+        {
+            return 0;
+        }
+    }
+
+    public int[] GetAllOwnerIds()
+    {
+        return playerList.Select(player => player.Id).ToArray();
     }
 }

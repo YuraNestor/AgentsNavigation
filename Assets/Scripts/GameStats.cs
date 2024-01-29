@@ -19,13 +19,13 @@ public class GameStats : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        textStats.text =string.Empty;
-        var keys=unitsManager.GetAllLayers();
-        foreach (var layer in keys)
-        {            
-            textStats.text += LayerMask.LayerToName(layer)+"\n";
-            textStats.text += "Alive-" + unitsManager.GetCountAliveUnitsWithLayer(layer) + "\n";
-            textStats.text += "Dead-" + unitsManager.GetCountDeadUnitsWithLayer(layer) + "\n";
+        textStats.text = string.Empty;
+        var ids = unitsManager.GetAllOwnerIds();
+        foreach (var id in ids)
+        {
+            textStats.text += "Id " + id + "\n";
+            textStats.text += "Alive-" + unitsManager.GetCountAliveUnitsWithOwnerId(id) + "\n";
+            textStats.text += "Dead-" + unitsManager.GetCountDeadUnitsWithOwnerId(id) + "\n";
         }
     }
 }

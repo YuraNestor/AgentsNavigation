@@ -29,7 +29,7 @@ public class Unit : MonoBehaviour
 
     void Start()
     {
-        unitsManager.AddUnitWithLayer(gameObject.layer);
+        unitsManager.AddUnitWithOwnerId(ownerId);
         agent = GetComponent<AgentAuthoring>();
         LookForClosestEnemyPeriodically().Forget();
     }
@@ -61,22 +61,22 @@ public class Unit : MonoBehaviour
         if (rangeChecks.Length != 0)
         {            
             float minDistance = float.MaxValue;            
-            foreach (var rengeCheck in rangeChecks)
+            foreach (var rangeCheck in rangeChecks)
             {
-                var distanceToTarget = Vector3.Distance(transform.position, rengeCheck.transform.position);
+                var distanceToTarget = Vector3.Distance(transform.position, rangeCheck.transform.position);
                 if (minDistance > distanceToTarget)
                 {
                     minDistance = distanceToTarget;
-                    closestTarget = rengeCheck.transform;
+                    closestTarget = rangeCheck.transform;
                 }
-            }    
-            target= closestTarget;
+            }
+            target = closestTarget;
         }        
     }
 
     private void OnDestroy()
     {        
-        unitsManager.RemoveUnitWithLayer(gameObject.layer);
+        unitsManager.RemoveUnitWithOwnerId(ownerId);
     }
 
     private void TryKillEnemy(Transform target)

@@ -53,7 +53,7 @@ public class EnemySpawner : MonoBehaviour
             return;
         for (int i = 0; i < spawnCount; i++) 
         {
-            if (unitsManager.GetCountAliveUnitsWithLayer(enemyPrefab.layer)<maxEnemyCount)
+            if (unitsManager.GetCountAliveUnitsWithOwnerId(enemyPrefab.layer)<maxEnemyCount)
             {
                 var position = spawnPositions[UnityEngine.Random.Range(0, spawnPositions.Length)];
                 var enemyClone = container.InstantiatePrefab(enemyPrefab, position, Quaternion.identity, enemyParent);
