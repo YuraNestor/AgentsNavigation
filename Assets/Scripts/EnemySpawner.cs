@@ -50,7 +50,9 @@ public class EnemySpawner : MonoBehaviour
     private async UniTaskVoid SpawnEnemys(int spawnCount)
     {
         if (spawnPositions.Length == 0)
+        {
             return;
+        }        
         for (int i = 0; i < spawnCount; i++) 
         {
             if (unitsManager.GetCountAliveUnitsWithOwnerId(enemyPrefab.GetComponent<Unit>().ownerId)<maxEnemyCount)

@@ -9,6 +9,7 @@ public class UGameStats : MonoBehaviour
 {
     [SerializeField]
     private Text textStats;
+
     private IUnitsManager unitsManager;
 
     [Inject]
@@ -17,8 +18,17 @@ public class UGameStats : MonoBehaviour
         this.unitsManager = unitsManager;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnEnable()
+    {
+        unitsManager.SubscribeForChanges(ShowStats);
+    }
+
+    private void OnDisable()
+    {
+        unitsManager.UnSubscribeForChanges(ShowStats);
+    }    
+
+    private void ShowStats()
     {
         textStats.text = string.Empty;
         var unitPlayers = unitsManager.GetAllUnitPlayers();

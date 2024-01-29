@@ -1,12 +1,22 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
 public class UnitsManager : IUnitsManager
-{    
+{
+    private event Action onDataChanged;
     private List<Player> playerList = new List<Player>();
     private string[] playerNames = { "Blue", "Red" };
     
+    public void SubscribeForChanges(Action action)
+    {        
+        onDataChanged += action;
+    }
+    public void UnSubscribeForChanges(Action action) 
+    { 
+        onDataChanged -= action;
+    }
     public void AddUnitWithOwnerId(int ownerId)
     {
         var player = playerList.Where(x => x.Id == ownerId).FirstOrDefault<Player>();
@@ -30,7 +40,8 @@ public class UnitsManager : IUnitsManager
         {
             player.aliveUnits++;
             player.totallUnits++;
-        }        
+        }
+        onDataChanged?.Invoke();
     }
 
     public int GetCountAliveUnitsWithOwnerId(int ownerId)
@@ -53,6 +64,7 @@ public class UnitsManager : IUnitsManager
         {
             player.aliveUnits--;
         }
+        onDataChanged?.Invoke();
     }
 
     public int GetCountUnitsWithOwnerId(int ownerId)
