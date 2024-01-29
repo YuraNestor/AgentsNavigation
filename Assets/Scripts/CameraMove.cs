@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class CameraMove : MonoBehaviour
 {
-    // Start is called before the first frame update
     public float MoveSpeed = 5f;
     public Rect Bounds = new Rect(0, 0, 10, 10);
+
     void LateUpdate()
     {
         float horizontalInput = Input.GetAxis("Horizontal");

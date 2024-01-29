@@ -11,6 +11,7 @@ public class ClickSpawn : MonoBehaviour
     private GameObject spawnPrefab;
     [SerializeField]
     private Transform parent;
+
     [Inject] 
     private DiContainer container;  
 

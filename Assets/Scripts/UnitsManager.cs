@@ -4,9 +4,9 @@ using System.Linq;
 using UnityEngine;
 
 public class UnitsManager : IUnitsManager
-{
+{    
     private Dictionary<int,int> aliveUnits=new Dictionary<int, int>();
-    private Dictionary<int, int> units = new Dictionary<int, int>();
+    private Dictionary<int, int> units = new Dictionary<int, int>();    
 
     public void AddUnitWithLayer(int layer)
     {
@@ -23,8 +23,7 @@ public class UnitsManager : IUnitsManager
     }
 
     public int GetCountAliveUnitsWithLayer(int layer)
-    {
-        
+    {        
         if (aliveUnits.ContainsKey(layer))
         {
             return aliveUnits[layer];            
@@ -42,6 +41,7 @@ public class UnitsManager : IUnitsManager
             aliveUnits[layer]--;
         }        
     }
+
     public int GetCountUnitsWithLayer(int layer)
     {
         if (units.ContainsKey(layer))
@@ -53,6 +53,7 @@ public class UnitsManager : IUnitsManager
             return 0;            
         }
     }
+
     public int GetCountDeadUnitsWithLayer(int layer)
     {
         if (units.ContainsKey(layer))
@@ -64,6 +65,7 @@ public class UnitsManager : IUnitsManager
             return 0;
         }
     }
+
     public int[] GetAllLayers()
     {
         return units.Keys.ToArray<int>();

@@ -7,7 +7,8 @@ using UnityEngine;
 using Zenject;
 
 public class Unit : MonoBehaviour
-{    
+{
+    public int ownerId;
     public float viewRadius;
     public float AttacRange;
     public float lookDelay;
@@ -15,22 +16,24 @@ public class Unit : MonoBehaviour
     public bool killAndDie=true;
     public bool ignorePreTarget = true;
     public GameObject effect;
-    protected AgentAuthoring agent;
     public Transform target;
-    private IUnitsManager unitsManager;
 
+    protected AgentAuthoring agent;    
+    private IUnitsManager unitsManager;
 
     [Inject]
     private void Construct(IUnitsManager unitsManager)
     {
         this.unitsManager = unitsManager;
     }
+
     void Start()
     {
         unitsManager.AddUnitWithLayer(gameObject.layer);
         agent = GetComponent<AgentAuthoring>();
         LookForClosestEnemyPeriodically().Forget();
     }
+
     protected async UniTaskVoid LookForClosestEnemyPeriodically()
     {        
         while (true) 
@@ -50,6 +53,7 @@ public class Unit : MonoBehaviour
             await UniTask.Delay(TimeSpan.FromSeconds(lookDelay), cancellationToken: this.GetCancellationTokenOnDestroy());
         }
     }
+
     private void FieldOfViewCheck()
     {
         Collider[] rangeChecks = Physics.OverlapSphere(transform.position, viewRadius, targetMask);
@@ -60,7 +64,6 @@ public class Unit : MonoBehaviour
             foreach (var rengeCheck in rangeChecks)
             {
                 var distanceToTarget = Vector3.Distance(transform.position, rengeCheck.transform.position);
-
                 if (minDistance > distanceToTarget)
                 {
                     minDistance = distanceToTarget;
@@ -70,10 +73,12 @@ public class Unit : MonoBehaviour
             target= closestTarget;
         }        
     }
+
     private void OnDestroy()
     {        
         unitsManager.RemoveUnitWithLayer(gameObject.layer);
     }
+
     private void TryKillEnemy(Transform target)
     {
         if (Vector3.Distance(transform.position, target.position) <= AttacRange)
@@ -85,8 +90,7 @@ public class Unit : MonoBehaviour
             {
                 Destroy(gameObject);
                 var particle = Instantiate(effect, transform.position, Quaternion.identity);
-                Destroy(particle, 1);
-                
+                Destroy(particle, 1);                
             }                
         }        
     }    

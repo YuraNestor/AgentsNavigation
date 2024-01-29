@@ -22,9 +22,11 @@ public class EnemySpawner : MonoBehaviour
     private float spawnDeley = 0.5f;
     [SerializeField]
     private int maxEnemyCount = 300;
+
     private IUnitsManager unitsManager;
     [Inject]
     private DiContainer container;
+
     [Inject]
     private void Construct(IUnitsManager unitsManager)
     {
@@ -44,6 +46,7 @@ public class EnemySpawner : MonoBehaviour
             await UniTask.Delay(TimeSpan.FromSeconds(spawnDeley), cancellationToken: this.GetCancellationTokenOnDestroy());
         }
     }
+
     private async UniTaskVoid SpawnEnemys(int spawnCount)
     {
         if (spawnPositions.Length == 0)

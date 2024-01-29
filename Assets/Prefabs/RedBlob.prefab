@@ -219,6 +219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 1
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
