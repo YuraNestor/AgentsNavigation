@@ -1,13 +1,33 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Zenject;
 
-[Serializable]
-public class Player
+public class Player : MonoBehaviour
 {
     public int Id;
-    public int aliveUnits;
-    public int totallUnits;
-    public string name;
+    public string playerName;
+    public List<Unit> units;
+    public int deadUnits { get; private set; }
+    public Action onUnitsValueChanged;
+
+    private IGameManager gameManager;
+
+    [Inject]
+    private void Construct(IGameManager gameManager)
+    {
+        this.gameManager = gameManager;
+    }
+    public void AddUnit(Unit unit)
+    {
+        units.Add(unit);
+        onUnitsValueChanged?.Invoke();
+    }
+
+    public void RemoveUnits(Unit unit)
+    {
+        deadUnits++;
+        units.Remove(unit);
+        onUnitsValueChanged?.Invoke();
+    }
 }

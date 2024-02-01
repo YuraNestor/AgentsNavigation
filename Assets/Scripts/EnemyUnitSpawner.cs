@@ -1,14 +1,9 @@
 using Cysharp.Threading.Tasks;
-using ProjectDawn.Navigation;
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using Zenject;
-using static UnityEngine.GraphicsBuffer;
 
-public class EnemySpawner : MonoBehaviour
+public class EnemyUnitSpawner : MonoBehaviour
 {
     [SerializeField]
     private Vector3[] spawnPositions;
@@ -22,22 +17,23 @@ public class EnemySpawner : MonoBehaviour
     private float spawnDeley = 0.5f;
     [SerializeField]
     private int maxEnemyCount = 300;
-
-    private IUnitsManager unitsManager;
+    private Unit unit;
+    private IGameManager gameManager;
     [Inject]
     private DiContainer container;
 
     [Inject]
-    private void Construct(IUnitsManager unitsManager)
+    private void Construct(IGameManager gameManager)
     {
-        this.unitsManager = unitsManager;
+        this.gameManager = gameManager;
     }
     // Start is called before the first frame update
     void Start()
     {
+        unit = enemyPrefab.GetComponent<Unit>();
         SpawnEnemyPeriodically().Forget();
     }
-    
+
     private async UniTaskVoid SpawnEnemyPeriodically()
     {
         while (true)
@@ -52,13 +48,14 @@ public class EnemySpawner : MonoBehaviour
         if (spawnPositions.Length == 0)
         {
             return;
-        }        
-        for (int i = 0; i < spawnCount; i++) 
+        }
+        for (int i = 0; i < spawnCount; i++)
         {
-            if (unitsManager.GetCountAliveUnitsWithOwnerId(enemyPrefab.GetComponent<Unit>().ownerId)<maxEnemyCount)
+            if (gameManager.GetPlayer(unit).units.Count < maxEnemyCount)
             {
+                var offset = new Vector3(UnityEngine.Random.Range(0, 2f), 0, UnityEngine.Random.Range(0, 2f));
                 var position = spawnPositions[UnityEngine.Random.Range(0, spawnPositions.Length)];
-                var enemyClone = container.InstantiatePrefab(enemyPrefab, position, Quaternion.identity, enemyParent);
+                var enemyClone = container.InstantiatePrefab(enemyPrefab, position + offset, Quaternion.identity, enemyParent);
             }
             await UniTask.Yield(cancellationToken: this.GetCancellationTokenOnDestroy());
         }

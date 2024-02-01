@@ -358,15 +358,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &3976913
 MonoBehaviour:
@@ -525,15 +523,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &11751457
 MonoBehaviour:
@@ -692,15 +688,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &13869106
 MonoBehaviour:
@@ -859,15 +853,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &14817775
 MonoBehaviour:
@@ -1358,15 +1350,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &29407400
 MonoBehaviour:
@@ -1857,15 +1847,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &59828055
 MonoBehaviour:
@@ -2024,15 +2012,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &64787779
 MonoBehaviour:
@@ -2191,15 +2177,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &68666243
 MonoBehaviour:
@@ -2441,15 +2425,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &69542138
 MonoBehaviour:
@@ -2608,15 +2590,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &72181020
 MonoBehaviour:
@@ -3152,15 +3132,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &103634819
 MonoBehaviour:
@@ -3319,15 +3297,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &105274933
 MonoBehaviour:
@@ -3652,15 +3628,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &118097201
 MonoBehaviour:
@@ -3819,15 +3793,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &121355798
 MonoBehaviour:
@@ -3986,15 +3958,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &122065938
 MonoBehaviour:
@@ -4236,15 +4206,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &123821174
 MonoBehaviour:
@@ -4486,15 +4454,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &129275399
 MonoBehaviour:
@@ -4902,15 +4868,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &139253594
 MonoBehaviour:
@@ -5301,15 +5265,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &153476687
 MonoBehaviour:
@@ -5468,15 +5430,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &153674003
 MonoBehaviour:
@@ -5635,15 +5595,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &153724507
 MonoBehaviour:
@@ -5802,15 +5760,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &157790452
 MonoBehaviour:
@@ -6390,15 +6346,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &198081653
 MonoBehaviour:
@@ -6954,15 +6908,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &222024211
 MonoBehaviour:
@@ -7204,15 +7156,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &226942794
 MonoBehaviour:
@@ -7454,15 +7404,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &227699498
 MonoBehaviour:
@@ -7621,15 +7569,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &243940500
 MonoBehaviour:
@@ -8203,15 +8149,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &274789015
 MonoBehaviour:
@@ -8453,15 +8397,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &285565529
 MonoBehaviour:
@@ -8620,15 +8562,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &293713965
 MonoBehaviour:
@@ -8953,15 +8893,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &306822798
 MonoBehaviour:
@@ -9120,15 +9058,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &311125799
 MonoBehaviour:
@@ -9287,15 +9223,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &314363562
 MonoBehaviour:
@@ -9454,15 +9388,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &315749829
 MonoBehaviour:
@@ -9787,15 +9719,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &329017282
 MonoBehaviour:
@@ -10037,15 +9967,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &331460044
 MonoBehaviour:
@@ -10204,15 +10132,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &334797523
 MonoBehaviour:
@@ -10371,15 +10297,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &338128337
 MonoBehaviour:
@@ -10538,15 +10462,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &339851245
 MonoBehaviour:
@@ -10705,15 +10627,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &344446625
 MonoBehaviour:
@@ -11204,15 +11124,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &356300703
 MonoBehaviour:
@@ -11454,15 +11372,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &375657003
 MonoBehaviour:
@@ -11704,15 +11620,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &376446918
 MonoBehaviour:
@@ -12037,15 +11951,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &386564421
 MonoBehaviour:
@@ -12287,15 +12199,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &389265468
 MonoBehaviour:
@@ -12537,15 +12447,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &391639460
 MonoBehaviour:
@@ -12704,15 +12612,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &393861402
 MonoBehaviour:
@@ -12871,15 +12777,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &394385159
 MonoBehaviour:
@@ -13038,15 +12942,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &395097243
 MonoBehaviour:
@@ -13205,15 +13107,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &395753378
 MonoBehaviour:
@@ -13704,15 +13604,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &412343558
 MonoBehaviour:
@@ -13871,15 +13769,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &413407310
 MonoBehaviour:
@@ -14104,15 +14000,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &415990849
 MonoBehaviour:
@@ -14271,15 +14165,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &421795704
 MonoBehaviour:
@@ -14603,15 +14495,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &430265301
 MonoBehaviour:
@@ -14770,15 +14660,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &432007357
 MonoBehaviour:
@@ -15103,15 +14991,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &444144115
 MonoBehaviour:
@@ -15270,15 +15156,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &450257873
 MonoBehaviour:
@@ -15520,15 +15404,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &455033037
 MonoBehaviour:
@@ -15770,15 +15652,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &457237472
 MonoBehaviour:
@@ -16103,15 +15983,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &475351565
 MonoBehaviour:
@@ -16270,15 +16148,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &480024597
 MonoBehaviour:
@@ -16437,15 +16313,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &481342984
 MonoBehaviour:
@@ -16604,15 +16478,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &486761701
 MonoBehaviour:
@@ -16771,15 +16643,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &486796630
 MonoBehaviour:
@@ -17021,15 +16891,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &491279559
 MonoBehaviour:
@@ -17271,15 +17139,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &500965187
 MonoBehaviour:
@@ -17438,15 +17304,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &503069451
 MonoBehaviour:
@@ -17688,15 +17552,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &504191679
 MonoBehaviour:
@@ -17855,15 +17717,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &505726804
 MonoBehaviour:
@@ -18271,15 +18131,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &513607517
 MonoBehaviour:
@@ -18438,15 +18296,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &514062694
 MonoBehaviour:
@@ -18605,15 +18461,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &514553425
 MonoBehaviour:
@@ -18772,15 +18626,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &526948718
 MonoBehaviour:
@@ -18939,15 +18791,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &529599315
 MonoBehaviour:
@@ -19272,15 +19122,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &548118091
 MonoBehaviour:
@@ -19439,15 +19287,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &549290133
 MonoBehaviour:
@@ -19606,15 +19452,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &557548900
 MonoBehaviour:
@@ -20022,15 +19866,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &578892929
 MonoBehaviour:
@@ -20189,15 +20031,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &581609237
 MonoBehaviour:
@@ -20356,15 +20196,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &584375797
 MonoBehaviour:
@@ -20611,15 +20449,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &594818266
 MonoBehaviour:
@@ -20778,15 +20614,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &597571538
 MonoBehaviour:
@@ -20945,15 +20779,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &609452687
 MonoBehaviour:
@@ -21112,15 +20944,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &613293451
 MonoBehaviour:
@@ -21279,15 +21109,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &615479185
 MonoBehaviour:
@@ -21446,15 +21274,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &616817407
 MonoBehaviour:
@@ -21613,15 +21439,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &618035251
 MonoBehaviour:
@@ -21863,15 +21687,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &631754244
 MonoBehaviour:
@@ -22030,15 +21852,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &635410514
 MonoBehaviour:
@@ -22280,15 +22100,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &640242640
 MonoBehaviour:
@@ -22530,15 +22348,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &647484321
 MonoBehaviour:
@@ -22863,15 +22679,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &651471862
 MonoBehaviour:
@@ -23196,15 +23010,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &678007112
 MonoBehaviour:
@@ -23564,15 +23376,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &684552912
 MonoBehaviour:
@@ -23814,15 +23624,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &688672725
 MonoBehaviour:
@@ -24047,15 +23855,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &694416846
 MonoBehaviour:
@@ -24214,15 +24020,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &701921735
 MonoBehaviour:
@@ -24381,15 +24185,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &703423188
 MonoBehaviour:
@@ -24548,15 +24350,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &715246222
 MonoBehaviour:
@@ -24864,15 +24664,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &716408388
 MonoBehaviour:
@@ -25114,15 +24912,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &727451168
 MonoBehaviour:
@@ -25281,15 +25077,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &731533616
 MonoBehaviour:
@@ -25448,15 +25242,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &733331621
 MonoBehaviour:
@@ -25698,15 +25490,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &739786505
 MonoBehaviour:
@@ -25865,15 +25655,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &739981620
 MonoBehaviour:
@@ -26032,15 +25820,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &746259998
 MonoBehaviour:
@@ -26282,15 +26068,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &749748180
 MonoBehaviour:
@@ -26449,15 +26233,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &755780370
 MonoBehaviour:
@@ -26616,15 +26398,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &757760533
 MonoBehaviour:
@@ -26783,15 +26563,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &758453925
 MonoBehaviour:
@@ -26950,15 +26728,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &759121474
 MonoBehaviour:
@@ -27329,15 +27105,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &774655541
 MonoBehaviour:
@@ -27496,15 +27270,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &777929005
 MonoBehaviour:
@@ -27746,15 +27518,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &780624989
 MonoBehaviour:
@@ -27913,15 +27683,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &782385995
 MonoBehaviour:
@@ -28080,15 +27848,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &784746488
 MonoBehaviour:
@@ -28247,15 +28013,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &788601938
 MonoBehaviour:
@@ -28414,15 +28178,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &790189249
 MonoBehaviour:
@@ -28581,15 +28343,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &790699123
 MonoBehaviour:
@@ -28748,15 +28508,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &791848281
 MonoBehaviour:
@@ -28998,15 +28756,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &793723313
 MonoBehaviour:
@@ -29165,15 +28921,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &794080193
 MonoBehaviour:
@@ -29419,15 +29173,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &796587803
 MonoBehaviour:
@@ -29586,15 +29338,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &802895602
 MonoBehaviour:
@@ -29819,15 +29569,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &810840133
 MonoBehaviour:
@@ -30235,15 +29983,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &827458591
 MonoBehaviour:
@@ -30402,15 +30148,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &828406871
 MonoBehaviour:
@@ -30569,15 +30313,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &828855494
 MonoBehaviour:
@@ -30819,15 +30561,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &831467146
 MonoBehaviour:
@@ -30986,15 +30726,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &833532341
 MonoBehaviour:
@@ -31153,15 +30891,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &833833912
 MonoBehaviour:
@@ -31403,15 +31139,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &841592705
 MonoBehaviour:
@@ -31653,15 +31387,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &845613663
 MonoBehaviour:
@@ -32069,15 +31801,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &857708273
 MonoBehaviour:
@@ -32236,15 +31966,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &862497209
 MonoBehaviour:
@@ -32403,15 +32131,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &864321402
 MonoBehaviour:
@@ -32570,15 +32296,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &868448418
 MonoBehaviour:
@@ -32737,15 +32461,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &871787147
 MonoBehaviour:
@@ -32904,15 +32626,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &872333689
 MonoBehaviour:
@@ -33071,15 +32791,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &873148265
 MonoBehaviour:
@@ -33321,15 +33039,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &876819686
 MonoBehaviour:
@@ -33654,15 +33370,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &882199050
 MonoBehaviour:
@@ -33889,15 +33603,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &888617293
 MonoBehaviour:
@@ -34222,15 +33934,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &898712863
 MonoBehaviour:
@@ -34389,15 +34099,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &903252705
 MonoBehaviour:
@@ -34556,15 +34264,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &904629259
 MonoBehaviour:
@@ -34723,15 +34429,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &913137846
 MonoBehaviour:
@@ -34890,15 +34594,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &920507666
 MonoBehaviour:
@@ -35139,15 +34841,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &933072511
 MonoBehaviour:
@@ -35306,15 +35006,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &940284250
 MonoBehaviour:
@@ -35473,15 +35171,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &945258073
 MonoBehaviour:
@@ -35889,15 +35585,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &961145213
 MonoBehaviour:
@@ -36056,15 +35750,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &963861842
 MonoBehaviour:
@@ -36306,15 +35998,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &968115908
 MonoBehaviour:
@@ -36473,15 +36163,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &969405306
 MonoBehaviour:
@@ -36640,15 +36328,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &970315366
 MonoBehaviour:
@@ -37305,15 +36991,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &992388651
 MonoBehaviour:
@@ -37555,15 +37239,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &993180666
 MonoBehaviour:
@@ -37888,15 +37570,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1013155375
 MonoBehaviour:
@@ -38203,15 +37883,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1020067165
 MonoBehaviour:
@@ -38370,15 +38048,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1021499214
 MonoBehaviour:
@@ -38620,15 +38296,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1024932598
 MonoBehaviour:
@@ -38787,15 +38461,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1028325340
 MonoBehaviour:
@@ -38954,15 +38626,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1028971763
 MonoBehaviour:
@@ -39452,15 +39122,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1041803497
 MonoBehaviour:
@@ -39928,15 +39596,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1057901568
 MonoBehaviour:
@@ -40095,15 +39761,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1060893507
 MonoBehaviour:
@@ -40345,15 +40009,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1070534871
 MonoBehaviour:
@@ -40678,15 +40340,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1074932522
 MonoBehaviour:
@@ -40928,15 +40588,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1090655261
 MonoBehaviour:
@@ -41095,15 +40753,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1097589613
 MonoBehaviour:
@@ -41511,15 +41167,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1114556262
 MonoBehaviour:
@@ -41780,15 +41434,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1118543659
 MonoBehaviour:
@@ -42030,15 +41682,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1134340283
 MonoBehaviour:
@@ -42446,15 +42096,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1153585050
 MonoBehaviour:
@@ -42613,15 +42261,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1156769244
 MonoBehaviour:
@@ -42946,15 +42592,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1169447795
 MonoBehaviour:
@@ -43113,15 +42757,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1172369365
 MonoBehaviour:
@@ -43363,15 +43005,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1176686890
 MonoBehaviour:
@@ -43613,15 +43253,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1179736132
 MonoBehaviour:
@@ -44278,15 +43916,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1199893787
 MonoBehaviour:
@@ -44445,15 +44081,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1209698406
 MonoBehaviour:
@@ -44612,15 +44246,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1213346987
 MonoBehaviour:
@@ -44779,15 +44411,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1214950417
 MonoBehaviour:
@@ -46097,15 +45727,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1246578624
 MonoBehaviour:
@@ -46430,15 +46058,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1253920642
 MonoBehaviour:
@@ -46763,15 +46389,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1273376937
 MonoBehaviour:
@@ -47096,15 +46720,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1289139377
 MonoBehaviour:
@@ -47346,15 +46968,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1301353958
 MonoBehaviour:
@@ -47828,15 +47448,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1330233644
 MonoBehaviour:
@@ -47995,15 +47613,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1348831769
 MonoBehaviour:
@@ -48651,15 +48267,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1360947450
 MonoBehaviour:
@@ -48818,15 +48432,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1366901248
 MonoBehaviour:
@@ -48985,15 +48597,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1369067826
 MonoBehaviour:
@@ -49152,15 +48762,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1369490342
 MonoBehaviour:
@@ -49634,15 +49242,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1382225089
 MonoBehaviour:
@@ -49801,15 +49407,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1382315273
 MonoBehaviour:
@@ -49968,15 +49572,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1383154632
 MonoBehaviour:
@@ -50367,15 +49969,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1403241717
 MonoBehaviour:
@@ -50534,15 +50134,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1406176519
 MonoBehaviour:
@@ -50928,15 +50526,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1418695812
 MonoBehaviour:
@@ -51178,15 +50774,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1424179504
 MonoBehaviour:
@@ -51428,15 +51022,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1427846780
 MonoBehaviour:
@@ -51844,15 +51436,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1444893460
 MonoBehaviour:
@@ -52094,15 +51684,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1460174822
 MonoBehaviour:
@@ -52261,15 +51849,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1463562898
 MonoBehaviour:
@@ -52677,15 +52263,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1473463705
 MonoBehaviour:
@@ -52844,15 +52428,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1478235880
 MonoBehaviour:
@@ -53011,15 +52593,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1480018028
 MonoBehaviour:
@@ -53261,15 +52841,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1486764512
 MonoBehaviour:
@@ -53385,6 +52963,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62ed72f84bce2f942a6c820eb64c4923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
 --- !u!4 &1492665301
 Transform:
   m_ObjectHideFlags: 0
@@ -53472,15 +53051,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1496328722
 MonoBehaviour:
@@ -53722,15 +53299,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1501436147
 MonoBehaviour:
@@ -54221,15 +53796,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1511120944
 MonoBehaviour:
@@ -54388,15 +53961,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1515330328
 MonoBehaviour:
@@ -54555,15 +54126,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1520313494
 MonoBehaviour:
@@ -54722,15 +54291,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1523756151
 MonoBehaviour:
@@ -54972,15 +54539,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1525856478
 MonoBehaviour:
@@ -55139,15 +54704,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1527257515
 MonoBehaviour:
@@ -55389,15 +54952,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1533336487
 MonoBehaviour:
@@ -55556,15 +55117,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1535531645
 MonoBehaviour:
@@ -55972,15 +55531,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1553113349
 MonoBehaviour:
@@ -56139,15 +55696,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1553539038
 MonoBehaviour:
@@ -56638,15 +56193,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1578335162
 MonoBehaviour:
@@ -56888,15 +56441,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1586659443
 MonoBehaviour:
@@ -57453,15 +57004,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1600319105
 MonoBehaviour:
@@ -57703,15 +57252,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1616438857
 MonoBehaviour:
@@ -57870,15 +57417,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1619631188
 MonoBehaviour:
@@ -58103,15 +57648,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1625316973
 MonoBehaviour:
@@ -58353,15 +57896,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1626063759
 MonoBehaviour:
@@ -58603,15 +58144,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1637174941
 MonoBehaviour:
@@ -58770,15 +58309,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1641666736
 MonoBehaviour:
@@ -59269,15 +58806,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1650615154
 MonoBehaviour:
@@ -59602,15 +59137,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1660313638
 MonoBehaviour:
@@ -59935,15 +59468,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1666672067
 MonoBehaviour:
@@ -60102,15 +59633,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1668450755
 MonoBehaviour:
@@ -60269,15 +59798,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1672895935
 MonoBehaviour:
@@ -60436,15 +59963,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1677536062
 MonoBehaviour:
@@ -60686,15 +60211,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1689348888
 MonoBehaviour:
@@ -60936,15 +60459,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1693758472
 MonoBehaviour:
@@ -61103,15 +60624,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1694576353
 MonoBehaviour:
@@ -61585,15 +61104,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1708468580
 MonoBehaviour:
@@ -61752,15 +61269,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1708649653
 MonoBehaviour:
@@ -61919,15 +61434,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1714527327
 MonoBehaviour:
@@ -62086,15 +61599,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1716490989
 MonoBehaviour:
@@ -62502,15 +62013,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1739004425
 MonoBehaviour:
@@ -62835,15 +62344,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1744194275
 MonoBehaviour:
@@ -63085,15 +62592,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1746281939
 MonoBehaviour:
@@ -63335,15 +62840,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1748787204
 MonoBehaviour:
@@ -63568,15 +63071,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1756977447
 MonoBehaviour:
@@ -63735,15 +63236,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1761527893
 MonoBehaviour:
@@ -63902,15 +63401,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1773495841
 MonoBehaviour:
@@ -64235,15 +63732,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1782814554
 MonoBehaviour:
@@ -64402,15 +63897,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1790044968
 MonoBehaviour:
@@ -64818,15 +64311,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1795265512
 MonoBehaviour:
@@ -65151,15 +64642,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1799817597
 MonoBehaviour:
@@ -65318,15 +64807,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1806761703
 MonoBehaviour:
@@ -65734,15 +65221,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1822493772
 MonoBehaviour:
@@ -66316,15 +65801,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1861645639
 MonoBehaviour:
@@ -66566,15 +66049,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1862015947
 MonoBehaviour:
@@ -66733,15 +66214,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1866872867
 MonoBehaviour:
@@ -67149,15 +66628,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1882445658
 MonoBehaviour:
@@ -67399,15 +66876,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1907532398
 MonoBehaviour:
@@ -67649,15 +67124,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1911838635
 MonoBehaviour:
@@ -67816,15 +67289,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1912015894
 MonoBehaviour:
@@ -67983,15 +67454,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1935369956
 MonoBehaviour:
@@ -68469,15 +67938,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1953372786
 MonoBehaviour:
@@ -68802,15 +68269,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1972834131
 MonoBehaviour:
@@ -69052,15 +68517,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1981635598
 MonoBehaviour:
@@ -69219,15 +68682,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1982734184
 MonoBehaviour:
@@ -69386,15 +68847,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1985210709
 MonoBehaviour:
@@ -69636,15 +69095,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1986409088
 MonoBehaviour:
@@ -69969,15 +69426,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1991647667
 MonoBehaviour:
@@ -70136,15 +69591,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1995180957
 MonoBehaviour:
@@ -70303,15 +69756,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &1995469902
 MonoBehaviour:
@@ -70470,15 +69921,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &2002705220
 MonoBehaviour:
@@ -70637,15 +70086,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &2006798342
 MonoBehaviour:
@@ -70870,15 +70317,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &2015944527
 MonoBehaviour:
@@ -71369,15 +70814,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &2036788134
 MonoBehaviour:
@@ -71536,15 +70979,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &2043791693
 MonoBehaviour:
@@ -71869,15 +71310,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &2053573562
 MonoBehaviour:
@@ -72119,15 +71558,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &2058802862
 MonoBehaviour:
@@ -72452,15 +71889,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &2061952525
 MonoBehaviour:
@@ -72619,15 +72054,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &2065386572
 MonoBehaviour:
@@ -73035,15 +72468,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &2077368775
 MonoBehaviour:
@@ -73202,15 +72633,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &2081115888
 MonoBehaviour:
@@ -74217,15 +73646,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &2118184673
 MonoBehaviour:
@@ -74467,15 +73894,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &2136976288
 MonoBehaviour:
@@ -74955,15 +74380,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &2140385962
 MonoBehaviour:
@@ -75205,15 +74628,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2a0d9f084c83469b0dccf47b35de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownerId: 0
+  limitedRadius: 0
   viewRadius: 20
   AttacRange: 1.8
   lookDelay: 0.1
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 64
   killAndDie: 1
   ignorePreTarget: 1
-  effect: {fileID: 6114165601204202741, guid: 3df5207bc50421b4b9a9681b20f3f72f, type: 3}
   target: {fileID: 0}
 --- !u!114 &2144741799
 MonoBehaviour:
